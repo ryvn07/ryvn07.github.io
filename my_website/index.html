@@ -2,12 +2,47 @@
 <html lang="en">
   <head>
     <style>table th{ border:1px solid black; }
-    
+    .container {
+    width: 100%;
+    border: 1px solid limegreen;
+}
+
+header, footer {
+    padding: 1em;
+    color: lightgreen;
+    background-color: green;
+    clear: left;
+    text-align: center;
+}
+
+nav {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 1em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+   
+nav ul a {
+    text-decoration: none;
+}
+article {
+    margin-left: 170px;
+    border-left: 1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
     </style>
     <meta charset="utf-8">
     <title>Ryan's website</title>
   </head>
-  <body bgcolor="lightgreen"></body>
+  <body bgcolor="lightgreen">
+  
+  <div class="container">
   
     <nav>
           <ul>
@@ -17,7 +52,8 @@
               <li><a target="_blank" href="https://www.w3schools.com">w3school</a></li>
           </ul>
       </nav>
-   
+      
+   <article>
     <h1>Home Page</h1>
     
     <img src="images/home.jpg" height="250">
@@ -68,6 +104,8 @@
       <th>AP Physics</th>
     </tr>
   </table>
-
+</article>
+  
     </body>
 </html>
+</div>
